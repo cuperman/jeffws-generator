@@ -70,4 +70,10 @@ module.exports = class extends Generator {
   install() {
     this.installDependencies();
   }
+
+  // TODO: Add scripts to package.json
+  // "build": "jake build",
+  // "clean": "jake clean",
+  // "deploy": "jake deploy",
+  // "destroy": "jake destroy",
 };
